@@ -5,8 +5,8 @@ This example demonstrates how to use job control commands (e.g., `fg`, `bg`, `ct
 ## Commands and Actions
 
 ### 1. Start Multiple Processes
-```bash
-./mysplit 100 &
-./mysplit 101 &
+
+> ./mysplit 100 &
+>./mysplit 101 &
 ./mysplit 102 &
 ./mysplit 103
