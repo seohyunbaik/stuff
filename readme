@@ -1,0 +1,12 @@
+# Job Control Demonstration with `mysplit`
+
+This example demonstrates how to use job control commands (e.g., `fg`, `bg`, `ctrl-z`, `ctrl-c`) in a Unix/Linux shell. It involves running multiple instances of the `./mysplit` program and managing them using shell job control.
+
+## Commands and Actions
+
+### 1. Start Multiple Processes
+```bash
+./mysplit 100 &
+./mysplit 101 &
+./mysplit 102 &
+./mysplit 103
